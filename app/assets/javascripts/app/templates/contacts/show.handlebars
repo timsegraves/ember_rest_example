@@ -1,9 +1,9 @@
-<td>{{contact.id}}</td>
+<td>{{user.id}}</td>
 <td class="data">
   {{#if isEditing}}
     {{view App.EditContactView}}
   {{else}}
-    {{contact.fullName}}
+    {{user.username}}
   {{/if}}
   <div class="commands">
     {{#unless isEditing}}

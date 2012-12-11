@@ -2,11 +2,11 @@
   <thead>
     <tr>
       <th>ID</th>
-      <th>Name</th>
+      <th>Username</th>
     </tr>
   </thead>
   <tbody>
-  {{#each contacts}}
+  {{#each users}}
     {{view App.ShowContactView contactBinding="this"}}
   {{/each}}
   {{#if isNewVisible}}
